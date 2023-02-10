@@ -16,7 +16,7 @@
         </div>
         <div class="flex flex-col">
           <span class="text-gray-500 uppercase text-xs">tour price</span>
-          <span class="font-semibold">{{ item.calculatePrice}} $</span>
+          <span class="font-semibold">{{ item.calculatePrice }} $</span>
         </div>
       </div>
     </div>
