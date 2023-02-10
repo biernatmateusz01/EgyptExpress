@@ -141,10 +141,6 @@ const getArea = () => {
   elementWithBiggestRectangleArea.value.push(result);
 };
 
-// const sortByPriceCheapestDearest = () => {
-
-// }
-
 watch(selected, (newValue, oldValue) => {
   if (newValue === "A") {
     pyramidhs.value.sort((a, b) => a.calculatePrice - b.calculatePrice);
