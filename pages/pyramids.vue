@@ -6,12 +6,13 @@
       <div v-if="$route.path == '/pyramids/all-pyramids'">
         <select
           v-model="selected"
-          class="border border-gray-400 py-2 px-5 text-sm rounded-md"
+          class="border border-gray-400 py-2 px-5 text-sm rounded-md bg-transaprent"
         >
           <option
             v-for="option in options"
             :key="option.value"
             :value="option.value"
+            class="bg-white"
           >
             {{ option.text }}
           </option>
